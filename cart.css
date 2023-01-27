@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8b3c32;
+    font-family: cursive;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebc3c3;
+    height: 2cm;
+  }
+  
+  .header .logo {
+    font-size: 35px;
+    font-family: cursive;
+    color: rgb(98, 22, 22);
+    text-decoration: none;
+    margin-left: 80px;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 2cm;
+    background-color: #ebc3c3;
+    text-decoration:solid;
+    margin-right: 100px;
+  }
+  
+  .nav-items a {
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(98, 22, 22);
+    padding: 35px 20px;
+  }
+.intro{
+    height: 600px;
+    width: 100%;
+    color: #fff;
+}
+.cart-view-table-back {
+    margin: 0px auto;
+    width: 50%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    }
+    
+    table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    }
+    
+    table thead tr th {
+    padding: 10px;
+    background-color: #492c28;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    table tbody tr td {
+    padding: 10px;
+    font-size: 18px;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    table tbody tr.odd {
+    background-color: #f9f9f9;
+    }
+    
+    table tbody tr.even {
+    background-color: #f0f0f0;
+    }
+    
+    table tbody tr td input[type="text"] {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    }
+    
+    table tbody tr td input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    }
+    
+    table tfoot tr td {
+    padding: 10px;
+    font-size: 18px;
+    color: #555;
+    border-top: 1px solid #ccc;
+    }
+    
+    table tfoot tr td a.button {
+    background-color: #492c28;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    }
+    
+    table tfoot tr td a.button:hover {
+    background-color: #714d44;
+    }
+    
+    table tfoot tr td button {
+    background-color: #492c28;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    }
+    
+    table tfoot tr td button:hover {
+    background-color: #714d44;
+    }
+   
+    .back-to-menu {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #492c28;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-top: 10px;
+     }
+        
+    .back-to-menu:hover {
+        background-color: #714d44;
+     }
+
+   
+    .cart-view-table-back button[type="submit"] {
+            display:block;
+            width: 150px;
+            height: 40px;
+            background-color: #492c28;
+            color: white;
+            text-align:center;
+            line-height: 40px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 15px;
+            margin: 20px auto;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+     }
+            
+    .cart-view-table-back button[type="submit"]:hover {
+        background-color: #714d44;
+    }
+  
+    @media only screen and (max-width: 600px) {
+    table {
+    width: 100%;
+    }
+    table thead tr {
+    display: none;
+    }
+    table tbody tr td {
+    display: block;
+    width: 100%;
+    }
+    table tbody tr td::before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: block;
+    }
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(98, 22, 22);
+        padding: 40px 80px;
+        
+      }
+      
+      .footer .copy {
+        font-family: cursive;
+        font-size: 15px;
+          justify-content: space-around;
+        color: #ebc3c3;
+      }

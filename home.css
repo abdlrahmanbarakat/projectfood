@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebc3c3;
+  height: 2cm;
+}
+
+.header .logo {
+  font-size: 35px;
+  font-family: cursive;
+  color: rgb(98, 22, 22);
+  text-decoration: none;
+  margin-left: 80px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2cm;
+  background-color: #ebc3c3;
+  text-decoration:solid;
+  margin-right: 100px;
+}
+
+.nav-items a {
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(98, 22, 22);
+  padding: 35px 20px;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:baseline;
+  height: 630px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("res.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: cursive;
+  font-size: 60px;
+  font-weight: bold;
+      color: #ebc3c3;
+  text-transform: uppercase;
+}
+
+.intro p {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ebc3c3;
+  text-transform: uppercase;
+}
+
+.intro button {
+  background-color: #ebc3c3;
+  color: rgb(114, 11, 11);
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(98, 22, 22);
+  padding: 40px 80px;
+  
+}
+
+.footer .copy {
+  font-family: cursive;
+  font-size: 15px;
+    justify-content: space-around;
+  color: #ebc3c3;
+}
+
