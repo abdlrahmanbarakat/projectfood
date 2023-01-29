@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("config.php");
+require("connect.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,10 +12,8 @@ include_once("config.php");
 <header class="header">
         <a href="home.php" class="logo">AB eat</a>
         <nav class="nav-items">
-          <a href="home.php">Home</a>
           <a href="menu.php">menu</a>
-          <a href="about.php">about us</a>
-          <a href="login.php">sign up\log in</a>
+          <a href="home.php">log out</a>
         </nav>
       </header>
 <body>
