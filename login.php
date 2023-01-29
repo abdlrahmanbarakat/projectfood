@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require("connection.php");
+require("connect.php");
 
 if(isset($_POST['login'])){
     $sql="SELECT * from login where username=:username and password=:password";
