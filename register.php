@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require("connect.php");
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
 $sql="INSERT INTO login (fullname,username,password) values (:fullname,:username,:password)";
