@@ -1,7 +1,7 @@
 <?php 
 
 $host='localhost';
-$dbname='resturant';
+$dbname='abdlrahm_resturant';
 $user='root';
 $password='';
 
